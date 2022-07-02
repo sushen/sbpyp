@@ -4,9 +4,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='number_utility',
-    version='0.0.3',
-    description='The number-utility module makes it simple for you to do number manipulation and perform various operations on numbers.',
+    name='sbpyp',
+    version='0.0.1',
+    description='A Test for pypy',
     py_modules=["number_utility"],
     package_dir={'': 'src'},
     extras_require={
